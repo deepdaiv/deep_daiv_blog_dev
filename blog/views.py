@@ -7,3 +7,4 @@ def index(request):
         request,
         'blog/index.html',
     )
+
