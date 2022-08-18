@@ -12,25 +12,7 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
-    <!-- 글씨체랑 색상 그리고 navibar 위치 수정 예정 글씨체는 구글로 가져오는거 보다 다운하는게 속도 빠를듯 -->
-    <!--네비게이션 바, 색상이나 bold같은건 적용했는데 폰트는 안했음 -->
-    <nav class="navbar navbar-expand-lg " style="background-color: #FFFFFF; ">
-        <div class="container px-lg-5 " >
-            <a class="navbar-brand" style="color: #264a8e;" href=""><strong>Deep Daiv.</strong></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="/about_us"><strong>다이브 소개</strong></a></li>
-                    <li class="nav-item"><a class="nav-link" href="/post"><strong>포스트</strong></a></li>
-                    <li class="nav-item"><a class="nav-link" href="/paper_review"><strong>논문 리뷰</strong></a></li>
-                    <li class="nav-item"><a class="nav-link" href="/wiki"><strong>위키</strong></a></li>
-                    <li class="nav-item"><a class="nav-link" href="/study"><strong>스터디</strong></a></li>
-                    <li class="nav-item"><a class="nav-link" href="/event"><strong>이벤트</strong></a></li> 
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <hr class="my-1">
+    {% include 'single_pages/template.html' %}
     <header class="py-2">
         <!-- 메인페이지 텍스트 -->
         <!-- 여기는 padding 같은 것이 대칭이 안맞을 수 있음 지식이 부족해서 ㅠㅠ -->
