@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "SpoqaHanSansNeo";
+    src: url(./fonts/SpoqaHanSansNeo_OTF_original/SpoqaHanSansNeo-Bold.otf) format('otf');
+}
+
+@font-face {
+    font-family: "SpoqaHanSansNeo";
+    src: url(./fonts/SpoqaHanSansNeo_OTF_original/SpoqaHanSansNeo-Medium.otf) format('otf');
+}
+
+@font-face {
+    font-family: "SpoqaHanSansNeo";
+    src: url(./fonts/SpoqaHanSansNeo_OTF_original/SpoqaHanSansNeo-Regular.otf) format('otf');
+}
+
+@font-face {
+    font-family: "SpoqaHanSansNeo";
+    src: url(./fonts/SpoqaHanSansNeo_OTF_original/SpoqaHanSansNeo-Light.otf) format('otf');
+}
+
+@font-face {
+    font-family: "SpoqaHanSansNeo";
+    src: url(./fonts/SpoqaHanSansNeo_OTF_original/SpoqaHanSansNeo-Thin.otf) format('otf');
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(./fonts/Poppins-Black.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(./fonts/Poppins-Bold.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(./fonts/Poppins-ExtraBold.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(./fonts/Poppins-ExtraLight.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(./fonts/Poppins-Light.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(./fonts/Poppins-Medium.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(./fonts/Poppins-Regular.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(./fonts/Poppins-SemiBold.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(./fonts/Poppins-Thin.ttf) format('ttf');
+}
+
+body {
+    font-family: 'SpoqaHanSansNeo';
+    font-family: 'Poppins';
+}
