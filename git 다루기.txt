@@ -1,3 +1,0 @@
-(deepdaiv) C:\Users\82103\Documents\Deep daiv\blog_dev_new\deep_daiv_blog_dev>git pull origin main
-
-deep_daiv_blog_dev 까지 들어가서 git pull origin main 해야 깃헙에 업데이트 된 것들 불러와짐
