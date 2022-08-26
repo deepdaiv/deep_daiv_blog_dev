@@ -9,7 +9,10 @@ def landing(request):
         request,
         'single_pages/landing.html'
     )
+<<<<<<< HEAD
 
+=======
+>>>>>>> kyuhun
 def about_us(request):
     return render(
         request,
@@ -44,5 +47,9 @@ def event(request):
     return render(
         request,
         'single_pages/event.html'
+<<<<<<< HEAD
     )
 
+=======
+    )
+>>>>>>> kyuhun
