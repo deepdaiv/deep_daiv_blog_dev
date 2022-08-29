@@ -9,10 +9,10 @@ def landing(request):
         request,
         'single_pages/landing.html'
     )
-<<<<<<< HEAD
+<<<<<<<<< Temporary merge branch 1
 
-=======
->>>>>>> 9f9b75a6dc3b8c39514bae184c3073e222ba0acf
+=========
+>>>>>>>>> Temporary merge branch 2
 def about_us(request):
     return render(
         request,
@@ -47,9 +47,14 @@ def event(request):
     return render(
         request,
         'single_pages/event.html'
-<<<<<<< HEAD
+<<<<<<<<< Temporary merge branch 1
     )
 
 =======
     )
 >>>>>>> 9f9b75a6dc3b8c39514bae184c3073e222ba0acf
+=======
+
+=========
+    )
+>>>>>>>>> Temporary merge branch 2
