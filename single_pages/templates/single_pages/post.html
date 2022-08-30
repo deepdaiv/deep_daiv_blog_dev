@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -12,49 +13,37 @@
 <body>
     {% include 'single_pages/template.html' %}
     <!-- post -->
+    <img src="{%static 'img/image_2.png'%} " style="width:100%;">
     <header class="py-2">
-        <div class="container-xxl px-lg-5">
-            <div class="p-4 p-lg-5"
-                 style= "background-color : #FFFFFF; ">
-                <div class="m-4 m-lg-5 text-sm-left">
-                    <div class="container text-center">
-                        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-                          <div class="col">
-                            <div class="p-3 border bg-light">Row column</div>
-                          </div>
-                          <div class="col">
-                            <div class="p-3 border bg-light">Row column</div>
-                          </div>
-                          <div class="col">
-                            <div class="p-3 border bg-light">Row column</div>
-                          </div>
-                          <div class="col">
-                            <div class="p-3 border bg-light">Row column</div>
-                          </div>
-                          <div class="col">
-                            <div class="p-3 border bg-light">Row column</div>
-                          </div>
-                          <div class="col">
-                            <div class="p-3 border bg-light">Row column</div>
-                          </div>
-                          <div class="col">
-                            <div class="p-3 border bg-light">Row column</div>
-                          </div>
-                          <div class="col">
-                            <div class="p-3 border bg-light">Row column</div>
-                          </div>
-                          <div class="col">
-                            <div class="p-3 border bg-light">Row column</div>
-                          </div>
-                          <div class="col">
-                            <div class="p-3 border bg-light">Row column</div>
-                          </div>
-                        </div>
-                      </div>
-                    
-                </div>
+      <div class="container-xxl px-lg-5">
+        <div class="p-4 p-lg-5" style= "background-color : #FFFFFF; ">
+          <div class="m-4 m-lg-5 text-sm-left">
+            <p><h1>Post</h1></p>
+            <hr style="height: 2px; color:black; opacity: 1;">
+            <div class="row gx-5">
+              <div class="col-lg-4 mb-5 mb-lg-0" style="text-align:center;">
+                <a href="https://deepdaiv.oopy.io/articles/kaggletutorial">
+                  <img src="{%static 'img/post/kaggle.png'%} " style="height:auto; max-width:100%;">
+                </a>
+                <p>두근 두근 캐글 데이터 분석 듀토리얼</p>
+              </div>
+              <div class="col-lg-4 mb-5 mb-lg-0" style="text-align:center;">
+                <a href="https://deepdaiv.oopy.io/articles/politictend">
+                  <img src="{%static 'img/post/politics.png'%} " style="height:auto; max-width:100%;">
+                </a>
+                <p>파이썬을 활용한 데이터 사이언스 - 정치 성향 분석하기</p>
+              </div>
+              <div class="col-lg-4 mb-5 mb-lg-0">
+                <a href="https://deepdaiv.oopy.io/articles/aiart">
+                  <img src="{%static 'img/post/art.png'%} " style="height:auto; max-width:100%;">
+                </a>
+                <p>인공지능의 예술성</p>
+              </div>
             </div>
+
+          </div>
         </div>
+      </div>
     </header>
 
     {% include 'single_pages/footer.html' %}
