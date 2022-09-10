@@ -1,10 +1,9 @@
 from http.client import REQUEST_TIMEOUT
 from django.shortcuts import render
-
+from django.views.generic import ListView
+from .models import Post
 # Create your views here.
-def index(request):
-    return render(
-        request,
-        'blog/index.html',
-    )
 
+class PostList(ListView):
+    model = Post
+    ordering='-pk'
