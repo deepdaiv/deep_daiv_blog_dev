@@ -68,12 +68,34 @@
     </header>
     <header class="py-1">
         <div class="container-xxl px-lg-5">
-            <div class="py-1 p-lg-5" style= "background-color : #FFFFFF; ">
                 <div class="m-4 m-lg-5 text-sm-left">
-                    <p style="font-size:30px; font-weight: bold;">최근 포스트</p>
-                    <p>여기는 post.html을 만들면 링크달아서 만들 예정이라서 못 만들었네요 ㅠㅠ 능력 부족</p>
+                    <div class="row g-0">
+                        <div class="col-sm-6 col-md-8"><p style="font-size:30px; font-weight: bold;">최근 포스트</p></div>
+                        <div class="col-6 col-md-4" style="text-align: right; " ><a href="/post/"><button style="color: #264A8E; outline: 0; border: 0; background-color: #FFFFFF; padding: 0;"> 포스트 더 보러가기 > </button></a></div>
+                      </div>
+                    <hr style="height: 2px; color:black; opacity: 1;">
+                    <br>
+                    <div class="row gx-5">
+                        <div class="col-lg-4 mb-5 mb-lg-0" style="text-align:center;">
+                          <a href="https://deepdaiv.oopy.io/paper/academiakey">
+                            <img src="{%static 'img/Paper/academiakey.png'%} " style="height:auto; max-width:100%;">
+                          </a>
+                          <p>소셜 네트워크와 데이터 마이닝 기법을 활용한 학문 분야 중심 및 융합 키워드 추천 서비</p>
+                        </div>
+                        <div class="col-lg-4 mb-5 mb-lg-0" style="text-align:center;">
+                          <a href="https://deepdaiv.oopy.io/paper/birdnet">
+                            <img src="{%static 'img/Paper/birdnet.png'%} " style="height:auto; max-width:100%;">
+                          </a>
+                          <p>BirdNET: A deep learning solution for avian diversity monitoring</p>
+                        </div>
+                        <div class="col-lg-4 mb-5 mb-lg-0" style="text-align:center;" >
+                          <a href="https://deepdaiv.oopy.io/paper/alexnet">
+                            <img src="{%static 'img/Paper/alexnet.png'%} " style="height:auto; max-width:100%;">
+                          </a>
+                          <p>AlexNet: ImageNet Classification with Deep Convolutional Neural Networks</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
         </div>
     </header>
     {% include 'single_pages/footer.html' %}
