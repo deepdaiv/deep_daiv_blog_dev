@@ -1,0 +1,10 @@
+@font-face {
+    font-family:'Poppins', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    unicode-range: U+0041-005A, U+0061-007A;
+}
+@font-face {
+    font-family:'Spoqa Han Sans Neo', 'sans-serif' ;
+    src: url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+    unicode-range: U+AC00-D7A3;
+}
