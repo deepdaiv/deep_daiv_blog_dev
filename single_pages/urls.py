@@ -8,6 +8,6 @@ urlpatterns = [
     path('paper_review/',views.paper_review),
     path('wiki/',views.wiki),
     path('study/',views.study),
-    path('onboard_1/',views.onboard_1),
+    path('onboard_1st/',views.onboard_1st),
 
 ]
