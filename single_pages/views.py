@@ -40,10 +40,10 @@ def study(request):
         'single_pages/study.html'
     )
 
-def event(request):
+def onboard_1(request):
     return render(
         request,
-        'single_pages/event.html'
+        'single_pages/onboard_1.html'
 
     )
 
